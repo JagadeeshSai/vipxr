@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="23.53s"
+		durationms="23531"
+		type="root"
+		rid="11735df0ffd77d8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Jagadeesh"
+		rxversion="7.2.1.0"
+		host="JAGADEESH-PC"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="12/14/2017 10:54:03 AM"
+		timestampiso="2017-12-14T05:24:03"
+		endtime="12/14/2017 10:54:26 AM"
+		timeoutfactor="1"
+		module="Vip_AUT">
+		<detail>
+			Vip_AUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.592"
+			timeRelativeToTestModuleStartTime="00:00.592"
+			timeWallClock="10:54:04"
+			time="00:00.592"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'D:\jagadeesh\Data\Rx\Files\VipV1.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Jagadeesh\Documents\Ranorex\RanorexStudio Projects\Vip\Vip\Vip_AUT.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.701"
+			timeRelativeToTestModuleStartTime="00:00.701"
+			timeWallClock="10:54:04"
+			time="00:00.701"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormVipApplication.FirstName' at 35;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='formVipApplication']/?/?/text[@accessiblerole='Text']"
+				fullname="VipRepository.FormVipApplication.FirstName"
+				id="e92231fa35ea4bc193d963ba4d4bedee"
+				timeout="60000"
+				codefile="c:\Users\Jagadeesh\Documents\Ranorex\RanorexStudio Projects\Vip\Vip\Vip_AUT.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.804"
+			timeRelativeToTestModuleStartTime="00:04.804"
+			timeWallClock="10:54:08"
+			time="00:04.804"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}J{LShiftKey up}ohn' with focus on 'FormVipApplication.FirstName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='formVipApplication']/?/?/text[@accessiblerole='Text']"
+				fullname="VipRepository.FormVipApplication.FirstName"
+				id="e92231fa35ea4bc193d963ba4d4bedee"
+				timeout="60000"
+				codefile="c:\Users\Jagadeesh\Documents\Ranorex\RanorexStudio Projects\Vip\Vip\Vip_AUT.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.897"
+			timeRelativeToTestModuleStartTime="00:05.897"
+			timeWallClock="10:54:09"
+			time="00:05.897"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormVipApplication.LastName' at 36;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='formVipApplication']/?/?/text[@accessiblename='Last Name:' and @accessiblerole='Text']"
+				fullname="VipRepository.FormVipApplication.LastName"
+				id="4a114c27bdf240318ce36ef43c662454"
+				timeout="60000"
+				codefile="c:\Users\Jagadeesh\Documents\Ranorex\RanorexStudio Projects\Vip\Vip\Vip_AUT.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.160"
+			timeRelativeToTestModuleStartTime="00:07.160"
+			timeWallClock="10:54:10"
+			time="00:07.160"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}D{LShiftKey up}oe' with focus on 'FormVipApplication.LastName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='formVipApplication']/?/?/text[@accessiblename='Last Name:' and @accessiblerole='Text']"
+				fullname="VipRepository.FormVipApplication.LastName"
+				id="4a114c27bdf240318ce36ef43c662454"
+				timeout="60000"
+				codefile="c:\Users\Jagadeesh\Documents\Ranorex\RanorexStudio Projects\Vip\Vip\Vip_AUT.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.174"
+			timeRelativeToTestModuleStartTime="00:08.174"
+			timeWallClock="10:54:11"
+			time="00:08.174"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormVipApplication.Music' at 26;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='formVipApplication']/list[@controlname='lbCategory']/?/?/listitem[@accessiblename='Music']"
+				fullname="VipRepository.FormVipApplication.Music"
+				id="62f15d3b7b534a19ae0e22dc2978512a"
+				timeout="60000"
+				codefile="c:\Users\Jagadeesh\Documents\Ranorex\RanorexStudio Projects\Vip\Vip\Vip_AUT.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.032"
+			timeRelativeToTestModuleStartTime="00:09.032"
+			timeWallClock="10:54:12"
+			time="00:09.032"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormVipApplication.Male' at 17;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='formVipApplication']/container[@controlname='groupBox2']/?/?/radiobutton[@accessiblename='Male']"
+				fullname="VipRepository.FormVipApplication.Male"
+				id="72f187665a1549d6b28e5ad7afaba32f"
+				timeout="60000"
+				codefile="c:\Users\Jagadeesh\Documents\Ranorex\RanorexStudio Projects\Vip\Vip\Vip_AUT.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.531"
+			timeRelativeToTestModuleStartTime="00:23.531"
+			timeWallClock="10:54:26"
+			time="00:23.531"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

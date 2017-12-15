@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{6EDFDBD5-76AB-4AE8-9815-B1DCDB0F1F37}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Vip</RootNamespace>
+    <AssemblyName>Vip</AssemblyName>
+    <RanorexVersion>7.2</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>6e0a52e5-3c86-4316-80b8-16643a042ac7</projectdefaultrepository>
+    <NoWin32Manifest>False</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.FirefoxWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>3ba5b5ef-9886-4d7a-94dd-a733b75460ca</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>0c8c3824-dca2-4070-9eb2-7563e158ccfe</id>
+    </Compile>
+    <Compile Include="Vip_AUT.cs">
+      <BoundTo>7c768075-8e49-48de-9928-b3631a337fca</BoundTo>
+      <DependentUpon>Vip_AUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>627dbf99-59dd-4373-9533-3c44e121ad54</id>
+    </Compile>
+    <Compile Include="Vip_AUT.UserCode.cs">
+      <BoundTo>7c768075-8e49-48de-9928-b3631a337fca</BoundTo>
+      <DependentUpon>Vip_AUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>419ff43c-7cbf-493c-aafe-9f508f04f59f</id>
+    </Compile>
+    <Compile Include="VipRepository.cs">
+      <BoundTo>6e0a52e5-3c86-4316-80b8-16643a042ac7</BoundTo>
+      <DependentUpon>VipRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>b9ccd4fd-7c65-4214-bcb2-995309f28f09</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>e3714ca9-5b33-4c48-848f-71cb8813aa4b</id>
+    </None>
+    <None Include="Vip_AUT.rxrec">
+      <BoundTo>6e0a52e5-3c86-4316-80b8-16643a042ac7</BoundTo>
+      <id>7c768075-8e49-48de-9928-b3631a337fca</id>
+      <recordtableid>497e0d0d-ed47-4f97-9dfe-1aa90fb0cf8c</recordtableid>
+    </None>
+    <None Include="VipRepository.rximg">
+      <BoundTo>6e0a52e5-3c86-4316-80b8-16643a042ac7</BoundTo>
+      <DependentUpon>VipRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>ce2eaa7e-d543-402a-b615-4aff014e7625</id>
+    </None>
+    <None Include="VipRepository.rxrep">
+      <id>6e0a52e5-3c86-4316-80b8-16643a042ac7</id>
+      <repoid>34edebaa-e1b4-4f5f-8c2a-da3630125dc2</repoid>
+      <reporootid>bacfb6ea-536a-4552-a361-80c9c0263bd7</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Vip.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>fb5ba5e9-aff4-4e58-aacb-cc63a6a5ee00</id>
+    </Content>
+    <Content Include="Vip.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>a57c8c19-f369-4c66-b065-30226054f3e0</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

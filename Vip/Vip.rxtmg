@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.2">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Vip"
+      id="ad6d47aa-a2ae-4ee3-86c3-80fc8f464664"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Vip"
+      id="ad6d47aa-a2ae-4ee3-86c3-80fc8f464664"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

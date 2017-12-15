@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Vip_AUT.UserCode.cs" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Vip_AUT.rxrec" />
+    <Element value="Vip_AUT.UserCode.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="Vip.Vip_AUT.report_cutom()" />
+    </Array>
+  </Properties>
+</Properties>
