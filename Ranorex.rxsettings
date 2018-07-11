@@ -1,11 +1,14 @@
 ﻿<configuration
-rxversion="7.2">
+rxversion="8.1">
 	<adapter.defaultsearchtimeout>
 		10000ms
 	</adapter.defaultsearchtimeout>
 	<adapter.defaultuseensurevisible>
 		True
 	</adapter.defaultuseensurevisible>
+	<adapter.functionexecutiontimeout>
+		5000ms
+	</adapter.functionexecutiontimeout>
 	<imaging.defaultfindoptions>
 		1;None;0,0,0,0;True;10000000;0ms
 	</imaging.defaultfindoptions>
@@ -27,6 +30,9 @@ rxversion="7.2">
 	<recorder.UseConfiguredTimingsOnRecord>
 		True
 	</recorder.UseConfiguredTimingsOnRecord>
+	<recorder.usekeystrokeoptimizationkey>
+		True
+	</recorder.usekeystrokeoptimizationkey>
 	<recorder.mousemovetime>
 		300ms
 	</recorder.mousemovetime>
@@ -414,6 +420,9 @@ rxversion="7.2">
 			</include>
 		</rawtextconfig>
 	</plugins.rawtext.whitelist>
+	<Telemetry.Enabled>
+		True
+	</Telemetry.Enabled>
 	<Endpoints.Data>
 		&lt;![CDATA[{
   &quot;webdriver.remote&quot;: [
@@ -487,6 +496,9 @@ rxversion="7.2">
 	<TestCase.Retry.ShowWarning>
 		True
 	</TestCase.Retry.ShowWarning>
+	<TestExecution.CopyRuntimeToOutput>
+		False
+	</TestExecution.CopyRuntimeToOutput>
 	<plugins.win32.EnableBasicDelphiSupport>
 		True
 	</plugins.win32.EnableBasicDelphiSupport>
@@ -498,6 +510,8 @@ rxversion="7.2">
 	</plugins.win32.EnableDynamicMsaa>
 	<plugins.win32.ProcessWhitelist>
 	</plugins.win32.ProcessWhitelist>
+	<plugins.win32.ProcessBlacklist>
+	</plugins.win32.ProcessBlacklist>
 	<plugins.msaa.FilterEnabled>
 		False
 	</plugins.msaa.FilterEnabled>

@@ -22,7 +22,7 @@ namespace Vip
     /// <summary>
     /// The class representing the VipRepository element repository.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "7.2")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
     [RepositoryFolder("bacfb6ea-536a-4552-a361-80c9c0263bd7")]
     public partial class VipRepository : RepoGenBaseFolder
     {
@@ -76,7 +76,7 @@ namespace Vip
     /// <summary>
     /// Inner folder classes.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "7.2")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
     public partial class VipRepositoryFolders
     {
         /// <summary>

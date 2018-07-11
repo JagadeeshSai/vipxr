@@ -1,7 +1,8 @@
-﻿<repository
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
 id="34edebaa-e1b4-4f5f-8c2a-da3630125dc2"
 name="VipRepository"
-rxversion="7.2">
+rxversion="8.1">
 	<codegen
 	classname="VipRepository"
 	namespace="Vip">
