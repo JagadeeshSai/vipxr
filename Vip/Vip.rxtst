@@ -32,6 +32,10 @@ rxversion="8.1">
 			ref="497e0d0d-ed47-4f97-9dfe-1aa90fb0cf8c"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="a0da4b4b-f77d-49ff-a002-3683063f4c94"
+			name="SmartFolder">
+			</smartfoldernode>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -47,6 +51,10 @@ rxversion="8.1">
 						id="8177a60f-61ca-4d10-9f7e-c20eb03d481c"
 						name="Vip_AUT">
 						</testmodule>
+						<smartfoldernode
+						id="a0da4b4b-f77d-49ff-a002-3683063f4c94"
+						name="SmartFolder">
+						</smartfoldernode>
 					</testcase>
 				</testcase>
 			</testsuite>
@@ -63,6 +71,9 @@ rxversion="8.1">
 			</testcontainer>
 			<testcontainer
 			id="769f6a54-8fbc-449e-aa82-789f185f65e5">
+			</testcontainer>
+			<testcontainer
+			id="a0da4b4b-f77d-49ff-a002-3683063f4c94">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
