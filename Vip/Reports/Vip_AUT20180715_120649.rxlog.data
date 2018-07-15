@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1d6d515cfeeb80ec"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Jagadeesh"
+		rxversion="8.1.1.0"
+		host="ADMIN-PC"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="7/15/2018 12:06:54 PM"
+		timestampiso="2018-07-15T06:36:54"
+		endtime="7/15/2018 12:06:58 PM"
+		timeoutfactor="1"
+		module="Vip_AUT">
+		<detail>
+			Vip_AUT
+		</detail>
+		<errormessage>
+			'pgdn' is not a valid member of the System.Windows.Forms.Keys enumeration.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.028"
+			timeRelativeToTestModuleStartTime="00:01.028"
+			timeWallClock="12:06:55"
+			time="00:01.028"
+			level="Error"
+			category="Module"
+			errimg=".\Vip_AUT2_a9a71740_0b1974cf_trace.jpg"
+			errthumb=".\Vip_AUT2_a9a71740_0b1974cf_trace_thumb.jpg">
+			<message>
+				'pgdn' is not a valid member of the System.Windows.Forms.Keys enumeration.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Keyboard.HandleEscapeGroup(String characters, Int32&amp; index)&#13;&#10;   at Ranorex.Keyboard.Parse(String sequence)&#13;&#10;   at Ranorex.Keyboard.Press(String sequence)&#13;&#10;   at Vip.Vip_AUT.report_cutom() in c:\Users\Admin\Documents\vipxr\Vip\Vip_AUT.UserCode.cs:line 40&#13;&#10;   at Vip.Vip_AUT.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Admin\Documents\vipxr\Vip\Vip_AUT.cs:line 82&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Admin\Documents\vipxr\Vip\Vip_AUT.UserCode.cs"
+				codeline="40"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
